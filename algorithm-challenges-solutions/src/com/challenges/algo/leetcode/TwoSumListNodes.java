@@ -10,7 +10,7 @@ import com.algo.challenges.main.ListNode;
  *     ListNode(int x) { val = x; }
  * }
  */
-public class TwoSum {
+public class TwoSumListNodes {
 	
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 	ListNode dummy=new ListNode(0);

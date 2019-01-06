@@ -1,6 +1,6 @@
 package com.algo.challenges.main;
 
-import com.challenges.algo.leetcode.TwoSum;
+import com.challenges.algo.leetcode.TwoSumListNodes;
 
 public class CallingFunction {
 
@@ -20,7 +20,7 @@ public class CallingFunction {
 		l2.next=l20;
 		l20.next=l200;
 		
-		TwoSum tn=new TwoSum();
+		TwoSumListNodes tn=new TwoSumListNodes();
 		ListNode ans=tn.addTwoNumbers(l1, l2);
 		for (int i = 0; i <2; i++) {
 			System.out.println(ans.next.val);
