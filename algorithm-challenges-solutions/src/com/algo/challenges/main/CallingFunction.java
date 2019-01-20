@@ -1,5 +1,6 @@
 package com.algo.challenges.main;
 
+import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
 
 public class CallingFunction {
@@ -22,15 +23,23 @@ public class CallingFunction {
 		
 		TwoSumListNodes tn=new TwoSumListNodes();
 		ListNode ans=tn.addTwoNumbers(l1, l2);
-		for (int i = 0; i <2; i++) {
+			System.out.println(ans.val);
 			System.out.println(ans.next.val);
-		}
+			System.out.println(ans.next.next.val);
+			
+		
 		
 		//***********************************************
 		
 		//**********************************************
+		//Two Sum
+		/*TwoSum ts=new TwoSum();
+		int[] arr=ts.twoSum(new int[]{2 ,4,9,11},11);
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
 		
-
+*/
 	}
 
 }
