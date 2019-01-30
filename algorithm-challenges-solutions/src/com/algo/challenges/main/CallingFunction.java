@@ -1,5 +1,7 @@
 package com.algo.challenges.main;
 
+import com.challenges.algo.leetcode.LongestSubStringWORepeat;
+import com.challenges.algo.leetcode.MedianOfArray;
 import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
 
@@ -9,7 +11,7 @@ public class CallingFunction {
 		// TODO Auto-generated method stub
 		//***************************************************
 		//Add two lists
-		ListNode l1=new ListNode(2);
+		/*ListNode l1=new ListNode(2);
 		ListNode l10=new ListNode(4);
 		ListNode l100=new ListNode(3);
 		l1.next=l10;
@@ -25,7 +27,7 @@ public class CallingFunction {
 		ListNode ans=tn.addTwoNumbers(l1, l2);
 			System.out.println(ans.val);
 			System.out.println(ans.next.val);
-			System.out.println(ans.next.next.val);
+			System.out.println(ans.next.next.val);*/
 			
 		
 		
@@ -40,6 +42,24 @@ public class CallingFunction {
 		}
 		
 */
+		
+		//******************************************
+		//******************************************
+		//Max String without repeating character
+		/*LongestSubStringWORepeat lSub=new LongestSubStringWORepeat();
+		int length=lSub.lengthOfLongestSubString("abcabcbb");
+		System.out.println(length);*/
+		
+		//********************************************
+		//********************************************
+		//Median of sorted arrays
+		/*int[] x= {1,3,8,9,15};
+		int[] y= {7,11,19,21,28,31};*/
+		int[] x= {1,3};
+		int[] y= {2};
+		MedianOfArray md=new MedianOfArray();
+		double c=md.findMedianSortedArrays(x, y);
+		System.out.println(c);
 	}
 
 }
