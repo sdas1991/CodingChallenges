@@ -1,5 +1,6 @@
 package com.algo.challenges.main;
 
+import com.challenges.algo.leetcode.LongestPalindromeSubString;
 import com.challenges.algo.leetcode.LongestSubStringWORepeat;
 import com.challenges.algo.leetcode.MedianOfArray;
 import com.challenges.algo.leetcode.TwoSum;
@@ -55,11 +56,19 @@ public class CallingFunction {
 		//Median of sorted arrays
 		/*int[] x= {1,3,8,9,15};
 		int[] y= {7,11,19,21,28,31};*/
-		int[] x= {1,3};
+		/*int[] x= {1,3};
 		int[] y= {2};
 		MedianOfArray md=new MedianOfArray();
 		double c=md.findMedianSortedArrays(x, y);
-		System.out.println(c);
+		System.out.println(c);*/
+		
+		//**************************************************
+		//*************************************************
+		//Longest Palindrome
+		LongestPalindromeSubString lps=new LongestPalindromeSubString();
+		String r=lps.longestPalindrome("dfdsaasduy");
+		System.out.println(r);
+		
 	}
 
 }
