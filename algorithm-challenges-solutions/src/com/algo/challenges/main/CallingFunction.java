@@ -5,6 +5,7 @@ import com.challenges.algo.leetcode.LongestSubStringWORepeat;
 import com.challenges.algo.leetcode.MedianOfArray;
 import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
+import com.challenges.algo.leetcode.ZigZag;
 
 public class CallingFunction {
 
@@ -65,9 +66,17 @@ public class CallingFunction {
 		//**************************************************
 		//*************************************************
 		//Longest Palindrome
-		LongestPalindromeSubString lps=new LongestPalindromeSubString();
-		String r=lps.longestPalindrome("dfdsaasduy");
-		System.out.println(r);
+		/*LongestPalindromeSubString lps=new LongestPalindromeSubString();
+		String r=lps.longestPalindrome("babad");
+		System.out.println(r);*/
+		
+		//**************************************************
+		//*************************************************
+		//zig zag
+		String s="paypalishiring";
+		int numRows=3;
+		ZigZag z=new ZigZag();
+		System.out.println(z.convert(s, numRows));;
 		
 	}
 
