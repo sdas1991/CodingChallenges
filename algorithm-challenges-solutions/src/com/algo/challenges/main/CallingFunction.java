@@ -1,8 +1,12 @@
 package com.algo.challenges.main;
 
+import com.challenges.algo.leetcode.Atoi;
+import com.challenges.algo.leetcode.IntToRoman;
 import com.challenges.algo.leetcode.LongestPalindromeSubString;
 import com.challenges.algo.leetcode.LongestSubStringWORepeat;
 import com.challenges.algo.leetcode.MedianOfArray;
+import com.challenges.algo.leetcode.MostWater;
+import com.challenges.algo.leetcode.PalindromeNumber;
 import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
 import com.challenges.algo.leetcode.ZigZag;
@@ -73,10 +77,33 @@ public class CallingFunction {
 		//**************************************************
 		//*************************************************
 		//zig zag
-		String s="paypalishiring";
+		/*String s="paypalishiring";
 		int numRows=3;
 		ZigZag z=new ZigZag();
-		System.out.println(z.convert(s, numRows));;
+		System.out.println(z.convert(s, numRows));;*/
+		
+		//**********************************************
+		//**********************************************
+		//string to int
+		/*Atoi atoi=new Atoi();
+		System.out.println(atoi.myAtoi("-91283472332"));*/
+		
+		//**********************************************
+		//********************************************
+		//Palindrome
+		/*PalindromeNumber pn=new PalindromeNumber();
+		System.out.println(pn.isPalindrome(-1221));*/
+		
+		//**********************************************
+		//*********************************************
+		/*MostWater mw=new MostWater();
+		System.out.println(mw.maxArea(new int[] {2,5,1,6,7,3}));*/
+		
+		//**********************************************
+		//**********************************************
+		IntToRoman ir=new IntToRoman();
+		
+		System.out.println(ir.intToRoman(3));
 		
 	}
 
