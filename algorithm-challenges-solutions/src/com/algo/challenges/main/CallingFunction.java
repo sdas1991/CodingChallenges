@@ -2,11 +2,13 @@ package com.algo.challenges.main;
 
 import com.challenges.algo.leetcode.Atoi;
 import com.challenges.algo.leetcode.IntToRoman;
+import com.challenges.algo.leetcode.LongestCommonPrefix;
 import com.challenges.algo.leetcode.LongestPalindromeSubString;
 import com.challenges.algo.leetcode.LongestSubStringWORepeat;
 import com.challenges.algo.leetcode.MedianOfArray;
 import com.challenges.algo.leetcode.MostWater;
 import com.challenges.algo.leetcode.PalindromeNumber;
+import com.challenges.algo.leetcode.ThreeSumClosest;
 import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
 import com.challenges.algo.leetcode.ZigZag;
@@ -101,9 +103,18 @@ public class CallingFunction {
 		
 		//**********************************************
 		//**********************************************
-		IntToRoman ir=new IntToRoman();
+		/*IntToRoman ir=new IntToRoman();
 		
-		System.out.println(ir.intToRoman(3));
+		System.out.println(ir.intToRoman(3));*/
+		
+		//*********************************************
+		//*********************************************
+		/*LongestCommonPrefix lcp=new LongestCommonPrefix();
+		System.out.println(lcp.longestCommonPrefix(new String[] {"aasd","aaaabc","aap"}));*/
+		
+		//3sum closest
+		ThreeSumClosest tsc=new ThreeSumClosest();
+		System.out.println(tsc.threeSumClosest(new int[] {-1,2,1,-4}, 1));
 		
 	}
 
