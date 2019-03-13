@@ -1,13 +1,18 @@
 package com.algo.challenges.main;
 
+import java.util.List;
+
 import com.challenges.algo.leetcode.Atoi;
+import com.challenges.algo.leetcode.FourSum;
 import com.challenges.algo.leetcode.IntToRoman;
+import com.challenges.algo.leetcode.LettersOfPhone;
 import com.challenges.algo.leetcode.LongestCommonPrefix;
 import com.challenges.algo.leetcode.LongestPalindromeSubString;
 import com.challenges.algo.leetcode.LongestSubStringWORepeat;
 import com.challenges.algo.leetcode.MedianOfArray;
 import com.challenges.algo.leetcode.MostWater;
 import com.challenges.algo.leetcode.PalindromeNumber;
+import com.challenges.algo.leetcode.RemoveNodeFromList;
 import com.challenges.algo.leetcode.ThreeSumClosest;
 import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
@@ -112,10 +117,53 @@ public class CallingFunction {
 		/*LongestCommonPrefix lcp=new LongestCommonPrefix();
 		System.out.println(lcp.longestCommonPrefix(new String[] {"aasd","aaaabc","aap"}));*/
 		
-		//3sum closest
-		ThreeSumClosest tsc=new ThreeSumClosest();
-		System.out.println(tsc.threeSumClosest(new int[] {-1,2,1,-4}, 1));
 		
-	}
-
+		//*********************************************
+		//************************************************
+		
+		//3sum closest
+		/*ThreeSumClosest tsc=new ThreeSumClosest();
+		System.out.println(tsc.threeSumClosest(new int[] {-1,2,1,-4}, 1));*/
+		
+		//*********************************************
+		//************************************************
+		//phone number combination
+		
+		/*LettersOfPhone lp=new LettersOfPhone();
+		List<String> r=lp.phoneNumberCombo("34");
+		for (String string : r) {
+			System.out.println(string);*/
+		
+		//*********************************************
+		//***************************************
+		/*ListNode l0=new ListNode(1);
+		ListNode l1=new ListNode(2);
+		ListNode l10=new ListNode(3);
+		ListNode l100=new ListNode(4);
+		ListNode l1000=new ListNode(5);
+		l0.next=l1;
+		l1.next=l10;
+		l10.next=l100;
+		l100.next=l1000;
+		
+		RemoveNodeFromList tn=new RemoveNodeFromList();
+		ListNode ans=tn.removeNthFromEnd(l0, 2);
+			System.out.println(ans.val);
+			System.out.println(ans.next.val);
+			System.out.println(ans.next.next.val);
+			System.out.println(ans.next.next.next.val);*/
+		
+		//*************************************************
+		//************************************************
+		FourSum fs = new FourSum();
+		List<List<Integer>> re=fs.fourSum(new int[] {1, 0, -1, 0, -2, 2}, 0);
+		for (List<Integer> l : re) {
+			System.out.println(l.toString());
+			
+		}
+			
+		}
+		
 }
+
+
