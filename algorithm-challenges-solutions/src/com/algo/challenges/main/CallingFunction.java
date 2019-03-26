@@ -3,6 +3,8 @@ package com.algo.challenges.main;
 import java.util.List;
 
 import com.challenges.algo.leetcode.Atoi;
+import com.challenges.algo.leetcode.DuplicateValueArray;
+import com.challenges.algo.leetcode.FindARange;
 import com.challenges.algo.leetcode.FourSum;
 import com.challenges.algo.leetcode.IntToRoman;
 import com.challenges.algo.leetcode.LettersOfPhone;
@@ -11,11 +13,14 @@ import com.challenges.algo.leetcode.LongestPalindromeSubString;
 import com.challenges.algo.leetcode.LongestSubStringWORepeat;
 import com.challenges.algo.leetcode.MedianOfArray;
 import com.challenges.algo.leetcode.MostWater;
+import com.challenges.algo.leetcode.NeedleAndHaystack;
 import com.challenges.algo.leetcode.PalindromeNumber;
 import com.challenges.algo.leetcode.RemoveNodeFromList;
+import com.challenges.algo.leetcode.SerchInsertPosition;
 import com.challenges.algo.leetcode.ThreeSumClosest;
 import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
+import com.challenges.algo.leetcode.ValidParenthesis;
 import com.challenges.algo.leetcode.ZigZag;
 
 public class CallingFunction {
@@ -132,8 +137,9 @@ public class CallingFunction {
 		/*LettersOfPhone lp=new LettersOfPhone();
 		List<String> r=lp.phoneNumberCombo("34");
 		for (String string : r) {
-			System.out.println(string);*/
+			System.out.println(string);
 		
+		}*/
 		//*********************************************
 		//***************************************
 		/*ListNode l0=new ListNode(1);
@@ -155,13 +161,46 @@ public class CallingFunction {
 		
 		//*************************************************
 		//************************************************
-		FourSum fs = new FourSum();
+		
+		/*FourSum fs = new FourSum();
 		List<List<Integer>> re=fs.fourSum(new int[] {1, 0, -1, 0, -2, 2}, 0);
 		for (List<Integer> l : re) {
 			System.out.println(l.toString());
 			
-		}
-			
+		};*/
+		
+		//********************************************************
+		 //************************************************
+		//VAlid Parenthesis
+		/*ValidParenthesis v=new ValidParenthesis();
+		boolean r=v.isValid("({{}})}");
+		System.out.println(r);*/
+		
+		//*************************************************
+		//**************************************************
+			//ARRAY WITHOUT DUPLICATE ELEMENT LENGTH
+		/*DuplicateValueArray da=new DuplicateValueArray();
+		System.out.println(da.removeDuplicates(new int[] {1,1,2,23,3,3,4,4,5,5,6}));*/
+		
+		//*****************************************
+		//****************************************
+		//Needle in haystack
+		/*NeedleAndHaystack nh=new NeedleAndHaystack();
+		System.out.println(nh.strStr("hello", "ll"));*/
+		
+		//***************************************************
+		//*****************************************************
+		//Find a range
+		/*FindARange crf=new FindARange();
+		int[] arr=crf.rangeFunc(new int[]{1,2,4,5,8,8,8,9},8 );
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}*/
+		
+		//************************************************************
+		//*************************************************************
+		SerchInsertPosition sp=new SerchInsertPosition();
+		System.out.println(sp.searchPos(new int[]{1,2,4,5,6,7,9},8));
 		}
 		
 }

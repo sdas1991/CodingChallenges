@@ -45,7 +45,9 @@ public class LettersOfPhone {
 		for (char ch : letterMap.get(digits.charAt(sb.length()))) {
 			sb.append(ch);
 			letterCombinationHelper(digits, sb, letterMap, result);
+			
 			sb.deleteCharAt(sb.length()-1);
+		
 			
 		}
 		
