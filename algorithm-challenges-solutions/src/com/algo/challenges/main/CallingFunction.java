@@ -3,6 +3,8 @@ package com.algo.challenges.main;
 import java.util.List;
 
 import com.challenges.algo.leetcode.Atoi;
+import com.challenges.algo.leetcode.CombinationSum;
+import com.challenges.algo.leetcode.CombinationSumNoRepeat;
 import com.challenges.algo.leetcode.DuplicateValueArray;
 import com.challenges.algo.leetcode.FindARange;
 import com.challenges.algo.leetcode.FourSum;
@@ -18,8 +20,11 @@ import com.challenges.algo.leetcode.PalindromeNumber;
 import com.challenges.algo.leetcode.RemoveNodeFromList;
 import com.challenges.algo.leetcode.SerchInsertPosition;
 import com.challenges.algo.leetcode.ThreeSumClosest;
+import com.challenges.algo.leetcode.TrappingRainWater;
 import com.challenges.algo.leetcode.TwoSum;
 import com.challenges.algo.leetcode.TwoSumListNodes;
+import com.challenges.algo.leetcode.UniquePaths;
+import com.challenges.algo.leetcode.UniquePaths2;
 import com.challenges.algo.leetcode.ValidParenthesis;
 import com.challenges.algo.leetcode.ZigZag;
 
@@ -199,8 +204,43 @@ public class CallingFunction {
 		
 		//************************************************************
 		//*************************************************************
-		SerchInsertPosition sp=new SerchInsertPosition();
-		System.out.println(sp.searchPos(new int[]{1,2,4,5,6,7,9},8));
+		/*SerchInsertPosition sp=new SerchInsertPosition();
+		System.out.println(sp.searchPos(new int[]{1,2,4,5,6,7,9},8));*/
+		
+		//**************************************************************
+		//***************************************************************
+		/*CombinationSum cs=new CombinationSum();
+		 List<List<Integer>> result=cs.combinationSum(new int[] {2, 3,4,7},7);
+		 for (List<Integer> list : result) {
+			System.out.println(list.toString());
+		}*/
+		 
+		 //comb sum 2
+		 /*CombinationSumNoRepeat cs=new CombinationSumNoRepeat();
+		 List<List<Integer>> result=cs.combinationSum2(new int[] {10,1,2,7,6,1,5},8);
+		 for (List<Integer> list : result) {
+			System.out.println(list.toString());
+		}*/
+		
+		//*****************************************************************
+		//****************************************************************
+		//TRapping rainWater
+		/*TrappingRainWater trw=new TrappingRainWater();
+		System.out.println(trw.trap(new int[] {0,1,0,2,1,0,1,3,2,1,2,1}));*/
+		
+		//*********************************************************
+		//***********************************************************
+		//unique paths
+/*		UniquePaths up=new UniquePaths();
+		System.out.println(up.uniquePaths(3, 7));*/
+		
+		//***************************************************************
+		//*************************************************************
+		//UniquePaths2
+		UniquePaths2 up2=new UniquePaths2();
+		System.out.println(up2.uniquePathsWithObstacles(new int[][] {{0,0,0},
+  {0,1,0},
+  {0,0,0}}));
 		}
 		
 }
