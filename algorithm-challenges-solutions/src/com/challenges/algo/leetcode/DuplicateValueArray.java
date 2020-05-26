@@ -3,7 +3,9 @@ package com.challenges.algo.leetcode;
 public class DuplicateValueArray {
 	
 public int removeDuplicates(int[] nums) {
-     
+  
+	
+	//in-place algorithm
 	if (nums==null || nums.length==0) {
 		return 0;
 	}

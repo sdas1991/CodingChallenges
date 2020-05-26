@@ -17,8 +17,10 @@ import com.challenges.algo.leetcode.MedianOfArray;
 import com.challenges.algo.leetcode.MostWater;
 import com.challenges.algo.leetcode.NeedleAndHaystack;
 import com.challenges.algo.leetcode.PalindromeNumber;
+import com.challenges.algo.leetcode.PrisonCell;
 import com.challenges.algo.leetcode.RemoveNodeFromList;
 import com.challenges.algo.leetcode.SerchInsertPosition;
+import com.challenges.algo.leetcode.SquareRoot;
 import com.challenges.algo.leetcode.ThreeSumClosest;
 import com.challenges.algo.leetcode.TrappingRainWater;
 import com.challenges.algo.leetcode.TwoSum;
@@ -58,13 +60,13 @@ public class CallingFunction {
 		
 		//**********************************************
 		//Two Sum
-		/*TwoSum ts=new TwoSum();
-		int[] arr=ts.twoSum(new int[]{2 ,4,9,11},11);
+		TwoSum ts=new TwoSum();
+		int[] arr=ts.twoSum(new int[]{2 ,4,9,11,2},11);
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
 		
-*/
+
 		
 		//******************************************
 		//******************************************
@@ -237,10 +239,30 @@ public class CallingFunction {
 		//***************************************************************
 		//*************************************************************
 		//UniquePaths2
-		UniquePaths2 up2=new UniquePaths2();
+	/*	UniquePaths2 up2=new UniquePaths2();
 		System.out.println(up2.uniquePathsWithObstacles(new int[][] {{0,0,0},
   {0,1,0},
-  {0,0,0}}));
+  {0,0,0}}));*/
+		
+		//************************************************************************
+		//*********************************************************************
+		//Square root
+		/*SquareRoot sq=new SquareRoot();
+		System.out.println(sq.square(9));*/
+		
+		//*************************************************************
+		//*************************************************************
+		//Prison cell
+		/*PrisonCell pc=new PrisonCell();
+		int[] val=pc.prisonAfterNDays(new int[] {0,1,0,1,1,0,0,1}, 7);
+		for (int i = 0; i < val.length; i++) {
+			System.out.println(val[i]);
+		}*/
+		
+		//Climbing Stairs
+		
+		
+		
 		}
 		
 }

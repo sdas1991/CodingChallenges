@@ -17,16 +17,16 @@ public class LongestPalindromeSubString {
 		for (int j = 1; j < s.length(); j++) {
 			for (int i = 0; i < j; i++) {
 				
-				boolean innerPalindrome=isPalindrome[i+1][j-1] || j-i<=2;
-				//System.out.println(isPalindrome[i+1][j-1]);
-				//System.out.println("inner word palindrome "+innerPalindrome);
+				boolean innerPalindrome=isPalindrome[i+1][j-1] || j-i<=2;//babad
+				System.out.println(isPalindrome[i+1][j-1]);
+				System.out.println("inner word palindrome "+innerPalindrome);
 				if (s.charAt(i)==s.charAt(j) && innerPalindrome) {
-					//System.out.println(s.charAt(i)+" "+s.charAt(j));
+					System.out.println(s.charAt(i)+" "+s.charAt(j));
 					isPalindrome[i][j]=true;
 					
 					if (j-i>right-left) {
-						//System.out.println("j-i is "+(j-i));
-						//System.out.println("right - left is"+(right-left));
+						System.out.println("j-i is "+(j-i));
+						System.out.println("right - left is"+(right-left));
 						left=i;
 						right=j;
 					}

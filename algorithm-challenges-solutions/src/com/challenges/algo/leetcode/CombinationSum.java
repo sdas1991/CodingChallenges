@@ -18,8 +18,7 @@ public class CombinationSum {
 		 helperMethod(result, combination, candidates, target, 0);
 		 
 		 return result;
-		 
-		 
+	 
 	    }
 	 
 	 private void helperMethod(List<List<Integer>> result, List<Integer> combination,int[] candidates, int target, int start ) {
