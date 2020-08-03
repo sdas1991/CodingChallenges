@@ -1,4 +1,4 @@
-package com.algo.google.challenges;
+package com.algo.google.challenges.GoodTecher;
 
 import java.util.ArrayList;
 import java.util.Arrays;

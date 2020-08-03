@@ -2,7 +2,12 @@ package com.challenges.algo.leetcode;
 
 public class LongestPalindromeSubString {
 	
-	public String longestPalindrome(String s) {
+	public static void main(String[] args) {
+		String s2= longestPalindrome("cbabbapw");
+		System.out.println(s2);
+	}
+	
+	public static String longestPalindrome(String s) {
 		
 		int length=s.length();
 		
