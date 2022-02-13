@@ -34,7 +34,7 @@ public class LongestNoRepeatSubstring {
 
     public static void main(String[] args) {
 
-        System.out.println(checkForSubstring("aybcdeyjk").toString());;
+        System.out.println(checkForSubstring("aybcdeyjk").toString());
 
 
     }
